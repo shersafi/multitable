@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MultiTable Generation</title>
+        <meta name="description" content="">
+        <link rel="icon" type="image/png" href="fonts-images/icon.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            @font-face {
+                font-family: "Lucida Grande";
+                src: url(fonts-images/LucidaGrande.ttf);
+            }
+
+            .container {
+                margin: 0 auto;
+                background-color: #292A2D;
+                width: 50%;
+                text-align: center;
+                font-family: Lucida Grande;
+                color: #9179C4;
+                font-size: 100%;
+            }
+
+        </style>    
+    </head>
+    <body style="background-color: #242424;">
+        <h1 style="font-family: Lucida Grande; text-align: center; color: #fff;">
+            MultiTable Generation
+        </h1>
+
+        <div class="container">
+            <br>
+            <a style="font-family: Lucida Grande;"> Enter the number of rows/column to insert: &#160<a> 
+                <form style="display: inline;" action="script.php" method="post" >
+                    <input style="width: 20px;" type="text" id="row" name="row" required>
+                    <a style="font-family: Lucida Grande; color: #fff;">x</a>
+                    <input style="width: 20px;" type="text" id="col" name="col" required>
+                    <input class="submit-btn" type="submit" value="Submit">
+                </form> 
+            <br>
+            <br>
+        </div>
+
+
+    </body>
+</html>
